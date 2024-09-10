@@ -21,5 +21,7 @@ public class Picape{
         
         return null;
     }
-    
+    public String getInfo() {
+        return "Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + anoFabric + ", Capacidade de carga: " + capacidadeCarga;
+    }
 }

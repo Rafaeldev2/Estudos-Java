@@ -23,4 +23,8 @@ public class Carro{
         }
         return carro;
     }
+    
+    public String getInfo() {
+        return " Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + anoFabric + ", Número de portas: " + numeroPortas;
+    }
 }
