@@ -27,7 +27,7 @@ public class LojaVendasOnline {
          * @param scanner Objeto da classe Scanner para entrada de dados.
          * Método Scanner(System.in):
          * Feito para inserção de dados via terminal;
-         * Faz sua busca através do Tokens;
+         * Faz sua busca através de Tokens;
          * Pode ser instanciado e possui métodos:
          * Ex: Scanner.nextLine() ou Scanner.nextInt();
          */

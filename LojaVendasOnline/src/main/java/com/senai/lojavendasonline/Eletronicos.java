@@ -1,10 +1,16 @@
 package com.senai.lojavendasonline;
 
+
+    /**
+     * Classe publica Eletronicos extendendo a classe Produto;
+     * Então, por meio da herança 
+     */
+
 public class Eletronicos extends Produto{
     
     /**
      * Variável Privada:
-     * Ou seja pode 
+     * Ou seja pode ser vista apenas na classe atual;
      */
     
     private String marca;

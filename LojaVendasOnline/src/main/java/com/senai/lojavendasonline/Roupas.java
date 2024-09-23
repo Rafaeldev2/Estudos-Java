@@ -4,6 +4,10 @@ public class Roupas extends Produto{
     
     private String tamanho;
 
+    /**
+     * This faz referência ao próprio objeto;
+     * Super faz referência a superclasse;
+     */
     public Roupas(String nome, String tamanho, double preco) {
         
         super(nome, preco);

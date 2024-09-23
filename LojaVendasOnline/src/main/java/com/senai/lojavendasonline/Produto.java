@@ -13,7 +13,7 @@ public abstract class Produto {
     
     /**
      * Declarando as variáveis.
-     * Visualização protected ( acesso somente no mesmo pacote/package ou por herança);
+     * Visualização protected (acesso somente no mesmo pacote/package ou por herança);
      * String (palavras/letras);
      * nome =  Nome do produto.
      * double (Valores/números com casas decimais);
@@ -26,12 +26,13 @@ public abstract class Produto {
     
     /**
      * Construtor da classe Produto.
-     *Construtor NÃO possui retorno!
+     * Construtor NÃO possui retorno!
      * @param nome  Nome do produto.
      * @param preco Preço do produto.
      */
     
     public Produto(String nome, double preco) {
+
         this.nome = nome;
         this.preco = preco;
     }
@@ -40,8 +41,9 @@ public abstract class Produto {
     /**
      * Logo abaixo encontram-se os métodos acessores:
      * Set() para "setar"/definir/atribuir valores;
-     * Set() tem retorno "Void";
+     * Set() tem retorno "Void" e aceita argumentos;
      * Get() para pegar/buscar valores já atribuidos;
+     * Normalmente não aceitam argumentos;
      */
     
     public String getNome() {
