@@ -1,25 +1,13 @@
 package com.senai.lojavendasonline;
 
-public class Roupas {
+public class Roupas extends Produto{
     
-    private String marca;
-    private String modelo;
     private String tamanho;
 
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+    public Roupas(String nome, String tamanho, double preco) {
+        
+        super(nome, preco);
+        this.tamanho = tamanho;
     }
 
     public String getTamanho() {
@@ -28,6 +16,16 @@ public class Roupas {
 
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
+    }
+
+    @Override
+    public Double calcularComDesconto(Double desconto) {
+            return preco - (preco * desconto);
+    }
+
+    @Override
+    public String getInformacoes() {
+            return "Roupa: " + nome + " - Preço: R$ " + preco + " - Tamanho: " + tamanho;
     }
     
     

@@ -1,18 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.senai.lojavendasonline;
 
-/**
- *
- * @author rafael_t_moraes
- */
-public class Eletronicos {
+public class Eletronicos extends Produto{
+    
+    /**
+     * Variável Privada:
+     * Ou seja pode 
+     */
     
     private String marca;
-    private String modelo;
-
+    
+    
+    /**
+     * Construtor da classe Eletronico.
+     *
+     * @param nome  Nome do produto.
+     * @param preco Preço do produto.
+     * @param marca Marca do eletrônico.
+     */
+    public Eletronicos(String nome, String marca, double preco) {
+        
+        super(nome, preco);
+        this.marca = marca;
+    }
+    
     public String getMarca() {
         return marca;
     }
@@ -21,12 +31,14 @@ public class Eletronicos {
         this.marca = marca;
     }
 
-    public String getModelo() {
-        return modelo;
+    @Override
+    public Double calcularComDesconto(Double desconto) {
+            return preco - (preco * desconto);
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+    @Override
+    public String getInformacoes() {
+            return "Eletrônico: " + nome + " - Marca: " + marca + " - Preço: R$ " + preco;
     }
     
     

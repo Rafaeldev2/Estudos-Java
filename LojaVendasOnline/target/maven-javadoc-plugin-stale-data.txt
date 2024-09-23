@@ -1,0 +1,47 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/Win10/Documents/RAFAEL/ESTUDOS/SENAI/ADS/POO/Estudos-Java/LojaVendasOnline/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Win10/Documents/RAFAEL/ESTUDOS/SENAI/ADS/POO/Estudos-Java/LojaVendasOnline/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'LojaVendasOnline 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'LojaVendasOnline 1.0-SNAPSHOT API'
+com.senai.lojavendasonline
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\src\main\java = 1726838752800
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\allclasses-index.html = 1727028694012
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\allpackages-index.html = 1727028694017
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\copy.svg = 1727028694061
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\element-list = 1727028693944
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\help-doc.html = 1727028694053
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\index-all.html = 1727028694041
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\index.html = 1727028694047
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\link.svg = 1727028694064
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\member-search-index.js = 1727028694025
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\module-search-index.js = 1727028694019
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\overview-tree.html = 1727028693997
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\package-search-index.js = 1727028694020
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\script.js = 1727028694059
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\search-page.js = 1727028694073
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\search.html = 1727028694044
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\search.js = 1727028694069
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\stylesheet.css = 1727028694056
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\tag-search-index.js = 1727028694027
+C:\Users\Win10\Documents\RAFAEL\ESTUDOS\SENAI\ADS\POO\Estudos-Java\LojaVendasOnline\target\reports\apidocs\type-search-index.js = 1727028694022
