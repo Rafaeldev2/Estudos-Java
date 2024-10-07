@@ -4,6 +4,10 @@ public class LojadeDepartamento {
 
     public static void main(String[] args) {
         
+        
+//Os objetos (instâncias de classe) possuem estruturas de dados individuais, cada um
+//guardando seus dados de forma independente dos outros.
+        
         Filial f = new Filial("dois irmaos", "sem fim", "coqueiros", "kiev", "kansas");
         ManterClienteEmFilial g = new ManterClienteEmFilial(f);
         g.addCliente("Rafael", 5, 6, 1990, "481234-5678", "Rua do porre", "perdizes", "mahakesh", "kansas");

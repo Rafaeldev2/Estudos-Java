@@ -18,6 +18,8 @@ public class Filial {
         for(Cliente c: clientes){
             if(c.getBairro().equalsIgnoreCase(endereco.getBairro())){
                 lista.add(c);
+                
+//                Caso c.getBairro seja igual a endereco.getBairro ele vai adicionar no ArrayList, senão retorna o array vazio.
             }
         }
         return lista;
@@ -27,6 +29,8 @@ public class Filial {
         for(Cliente c: clientes){
             if(c.getIdade() > 60){
                 lista.add(c);
+                
+//                Caso a idade seja maior que 60 anos, ele adiciona no ArrayList, senão retorna o array vazio.
             }
         }
         return lista;
@@ -36,6 +40,8 @@ public class Filial {
         for(Cliente c: clientes){
             if(c.getEstado().equalsIgnoreCase(endereco.getEstado())){
                 lista.add(c);
+                
+//               Caso c.getEstado seja igual a endereco.getEstado ele vai adicionar no ArrayList, senão retorna o array vazio.
             }
         }
         return lista;

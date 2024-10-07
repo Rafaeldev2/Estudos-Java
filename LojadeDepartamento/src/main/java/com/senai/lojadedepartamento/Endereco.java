@@ -1,5 +1,11 @@
 package com.senai.lojadedepartamento;
 
+
+//Uma Classe é um modelo que é usado para a criação de objetos.
+//Uma classe também é uma composição de estrutura de dados.
+//Pode realizar operaçãoes sobre essa estrutura de dados.
+//A classe também faz a abstração de uma entidade do mundo real.
+
 public class Endereco {
     private String rua;
     private String bairro;
