@@ -58,6 +58,12 @@ public class LojaVendasOnline {
                     double preco = sc.nextDouble();
                     sc.nextLine();
                 
+                    
+                        /**
+                        * Switch executa uma sentença a partir de um valor;
+                        * Pode usar break;
+                        */
+                    
                         switch(tipo){
                             case 1:
                                     System.out.println("Digite a marca: ");
@@ -105,7 +111,7 @@ public class LojaVendasOnline {
                 try{
                     System.out.println("Digite o tipo de produto (1 para Eletrônico, 2 para Roupa): ");
                     tipo = sc.nextInt();
-                    sc.nextLine();
+                    //sc.nextLine();
                     
                     if(tipo !=1 && tipo != 2){
                         throw new IllegalArgumentException("Tipo de produto deve ser 1 (eletrônico) ou 2 (Roupa). ");
@@ -113,7 +119,7 @@ public class LojaVendasOnline {
                     break;
                 } catch(InputMismatchException e){
                     System.err.println("Erro: Por favor insira um numero inteiro válido. ");
-                    sc.nextLine();
+                    //sc.nextLine();
                 } catch (IllegalArgumentException e){
                     System.err.println("Erro: " + e.getMessage());
                 }
@@ -128,3 +134,6 @@ public class LojaVendasOnline {
      * @NullPointerException é uma excessão que é lançada (throw) quando uma aplicação tenta usar null em um caso que o objeto é necessário;
      */
 }
+    /**
+     * Garbage Collector é um coletor de lixo, que serve para liberar a memória dos objetos que não tem mais referencia;
+     */

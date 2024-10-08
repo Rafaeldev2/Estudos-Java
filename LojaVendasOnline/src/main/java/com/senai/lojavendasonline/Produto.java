@@ -27,6 +27,7 @@ public abstract class Produto {
     /**
      * Construtor da classe Produto.
      * Construtor NÃO possui retorno!
+     * Usado também para inicializar tudo!
      * @param nome  Nome do produto.
      * @param preco Preço do produto.
      */
@@ -43,6 +44,7 @@ public abstract class Produto {
      * Set() para "setar"/definir/atribuir valores;
      * Set() tem retorno "Void" e aceita argumentos;
      * Get() para pegar/buscar valores já atribuidos;
+     * Garante o encapsulamento da classe;
      * Normalmente não aceitam argumentos;
      */
     
@@ -91,3 +93,11 @@ public abstract class Produto {
      */
     public abstract String getInformacoes();
 }
+
+
+    /**
+     * Sobrecarga é quanto eu tenho métodos com o mesmo nome mas atributos diferentes.
+     * Não precisa de herança;
+     * Sobrescrita não funciona na mesma classe;
+     * precisa de herança e possui a mesma forma da superclasse mas funciona de outra forma;
+     */
