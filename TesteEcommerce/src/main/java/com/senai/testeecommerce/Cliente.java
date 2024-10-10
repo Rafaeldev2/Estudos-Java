@@ -1,5 +1,5 @@
 package com.senai.testeecommerce;
 
-public class Cliente {
+public class Cliente extends Pessoa{
     
 }
