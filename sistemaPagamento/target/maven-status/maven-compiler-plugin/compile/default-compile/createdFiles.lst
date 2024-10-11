@@ -1,0 +1,6 @@
+sistemaPagamento\Pagamento.class
+sistemaPagamento\PagamentoBoleto.class
+sistemaPagamento\SistemaPagamento.class
+sistemaPagamento\PagamentoPix.class
+sistemaPagamento\Main.class
+sistemaPagamento\PagamentoCartao.class
