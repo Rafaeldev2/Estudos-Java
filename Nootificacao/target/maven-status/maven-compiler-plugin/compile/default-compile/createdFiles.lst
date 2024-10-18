@@ -1,0 +1,5 @@
+com\senai\notificacao\Notificador.class
+com\senai\notificacao\Notificacao.class
+com\senai\notificacao\NotificacoesTotais.class
+com\senai\notificacao\NotificacaoPorSMS.class
+com\senai\notificacao\NotificacaoPorEmail.class

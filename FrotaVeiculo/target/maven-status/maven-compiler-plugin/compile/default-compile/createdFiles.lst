@@ -1,0 +1,6 @@
+com\senai\frotaveiculo\Veiculo.class
+com\senai\frotaveiculo\Carro.class
+com\senai\frotaveiculo\Bicicleta.class
+com\senai\frotaveiculo\FrotaVeiculo.class
+com\senai\frotaveiculo\VeiculoAbastece.class
+com\senai\frotaveiculo\VeiculoComManutencao.class
