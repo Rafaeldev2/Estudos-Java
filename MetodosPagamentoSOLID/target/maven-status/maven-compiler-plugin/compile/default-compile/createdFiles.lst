@@ -1,0 +1,5 @@
+com\senai\metodospagamentosolid\Pagamento.class
+com\senai\metodospagamentosolid\PagarCartaoCredito.class
+com\senai\metodospagamentosolid\Pedido.class
+com\senai\metodospagamentosolid\MetodosPagamentoSOLID.class
+com\senai\metodospagamentosolid\PagarPayPal.class
